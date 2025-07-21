@@ -1,0 +1,11 @@
+{
+	"mcpServers": {
+		"docx-sow-i1": {
+			"type": "stdio",
+			"command": "D:\\archive\\test_hub\\test_now\\AI_POC_Ideas\\sow_scope\\.venv\\Scripts\\python.exe",
+			"args": [
+				"D:\\archive\\test_hub\\test_now\\AI_POC_Ideas\\sow_scope\\word_man.py"
+			]
+		}
+    }
+}

@@ -244,4 +244,22 @@ Generally, most LLMs have three roles:
 - Ambiguity and confusion due to multiple instructions.
 - Reduced clarity in how the LLM handles information.
 - More difficult to iterate and improve the prompt.
+
+Cost and Budget Required to Deploy an LLM Locally
+This document outlines the estimated costs and budget considerations for deploying a Large Language Model (LLM) locally, including hardware requirements for inference, software subscriptions, and third-party provider costs.
+Hardware for Inference (Local Deployment)
+For local deployment and testing of LLMs, high-performance hardware is required. The following configuration is recommended:
+Component	Specification	Estimated Cost
+GPU	8x NVIDIA H100-80GB (NVIDIA DGX H200 SYSTEM)	Rs 5,00,000
+The above hardware setup is suitable for both testing and deployment of large-scale language models, providing sufficient VRAM and compute power for efficient inference.
+Software and Subscription Costs
+Software/Service	Description	Estimated Cost
+GitHub Copilot	AI-powered code completion tool (per user, per month)	$40
+Third-party Provider	Other external services (if required)	Varies
+GitHub Copilot is a subscription-based AI coding assistant. The cost is $40 per user per month. Additional third-party provider costs may vary depending on the services and scale required.
+Summary of Estimated Costs
++ Hardware (NVIDIA DGX H200 SYSTEM with 8x H100-80GB GPUs): Rs 5,00,000 (one-time)
++ GitHub Copilot: $40 per user per month (recurring)
++ Third-party provider: Varies (recurring or one-time, as per service)
+
 </context>
